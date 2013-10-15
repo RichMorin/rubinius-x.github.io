@@ -11,5 +11,6 @@ exclude:
   - CNAME
   - .gitignore
   - ./public
+markdown: rdiscount
 pygments: false
 port: 9876
