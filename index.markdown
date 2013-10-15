@@ -61,7 +61,7 @@ _purely functional_ data structures.
 
 Composition is needed both between components and within components. The
 semantics of primitive operations and their composition must be clearly
-defined. [Mirrors](http://bracha.org/mirrors.pdf‎) are a construct that
+defined. [Mirrors](http://bracha.org/mirrors.pdf) are a construct that
 provides structure for composition through encapsulation and separation of
 object and meta-object operations.
 
