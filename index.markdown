@@ -133,10 +133,8 @@ boundaries. In Rubinius X, a method definition like the following clearly
 expresses that String or Integer behavior is expected in the respective
 parameters:
 
-```
-def exclaim(message: String(a), times: Integer(b))
-end
-```
+    def exclaim(message: String(a), times: Integer(b))
+    end
 
 The operations `String(a)` and `Integer(b)` are automatically performed before
 the method begins running so that `a` and `b` have the expected behavior.
@@ -160,11 +158,9 @@ through the system using ByteBuffers.
 All APIs use keywords where necessary. There are no position-significant APIs
 like the following:
 
-```
-IO.readlines( portname, separator=$/ [, options])
-IO.readlines( portname, limit [, options])
-IO.readlines( portname, separator, limit [, options])
-```
+    IO.readlines( portname, separator=$/ [, options])
+    IO.readlines( portname, limit [, options])
+    IO.readlines( portname, separator, limit [, options])
 
 ### Numerics
 
