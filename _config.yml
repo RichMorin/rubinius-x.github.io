@@ -1,0 +1,15 @@
+url: http://x.rubini.us
+safe: true
+lsi: false
+source: .
+destination: ./public
+exclude:
+  - Rakefile
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - .gitignore
+  - ./public
+pygments: false
+port: 9876
