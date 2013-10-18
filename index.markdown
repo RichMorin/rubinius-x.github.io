@@ -175,7 +175,7 @@ defined coercion protocol based on the concept of embedding.
 
 In general, anything inspired by Perl should be removed, but especially "magic
 globals" like `$_` or `$1`. They are easily replaced by simply sending messages
-to objects and providing objects as parameters. And so they are.
+to objects and providing objects as parameters.
 
 ### Global Variables
 
