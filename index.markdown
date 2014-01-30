@@ -133,11 +133,12 @@ boundaries. In Rubinius X, a method definition like the following clearly
 expresses that String or Integer behavior is expected in the respective
 parameters:
 
-    def exclaim(message: String(a), times: Integer(b))
+    def exclaim(message: String("hi"), times: Integer())
     end
 
-The operations `String(a)` and `Integer(b)` are automatically performed before
-the method begins running so that `a` and `b` have the expected behavior.
+The operations `String(message)` and `Integer(times)` are automatically
+performed before the method begins running so that `message` and `times` have
+the expected behavior.
 
 The preceding are not _types_. They are labels for behaviors. Where needed to
 disambiguate, they can be useful. They are rarely needed.
