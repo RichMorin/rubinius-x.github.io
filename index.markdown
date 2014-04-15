@@ -4,7 +4,7 @@ layout: site
 
 **A Ruby platform for composition and collaboration.**
 
-The internet has caused a fundamental change in general computing, yet many
+The Internet has caused a fundamental change in general computing, yet many
 programming languages are solidly centered in the Windows 3.0 era,
 providing their equivalent to the Windows for Workgroups add-on to enable
 networking. Unfortunately, Ruby is one of those languages.
@@ -92,7 +92,7 @@ has knowable consequences.
 
 ### Immutable Strings and ByteBuffers
 
-Strings of characters are the most fundamental exchange format on the internet.
+Strings of characters are the most fundamental exchange format on the Internet.
 They may be human-readable strings or collections of bytes, but they are the
 currency of collaboration.
 
@@ -126,7 +126,7 @@ reality, it's very poorly defined in Ruby.
 There is no need for this confusion. If we focus on behavior, then we merely
 need a way to ask an object to provide something that behaves in a defined
 manner. It need not return a different object, but if it doesn't, then after
-requesting it behave a certain way, it should do so or return `undefined`.
+requesting it to behave a certain way, it should do so or return `undefined`.
 
 One of the most common places to describe behavior expectations is at method
 boundaries. In Rubinius X, a method definition like the following clearly
